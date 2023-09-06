@@ -2,7 +2,7 @@
 #include <thread>
 #include <mutex>
 
-const int MAX_NUMBER = 100;  // Print numbers up to 20
+const int MAX_NUMBER = 100;  // Print numbers up to 100
 
 std::mutex mtx;
 int currentNumber = 1;
